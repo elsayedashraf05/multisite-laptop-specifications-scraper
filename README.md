@@ -19,7 +19,7 @@ This project automatically collects laptop listings from **three major Egyptian 
 | 🕷️ **Scraping** | Selenium scrapes Noon, Amazon & Jumia Egypt |
 | 🧹 **Cleaning** | 13-stage Python pipeline fixes prices, specs & duplicates |
 | 📦 **Output** | Clean dataset ready for analysis, dashboards, or ML |
-![Notebook Overview](images/notebook_overview.png)
+![Notebook Overview](images/notebook_overview.jpg)
 
 ---
 
@@ -80,13 +80,13 @@ The notebook scrapes three sites using **Selenium + Chrome** with anti-bot evasi
 └──────────────────────────────────────────────────────────┘
 ```
 **Noon scraping output:**
-![Noon Scraping](images/scraping_noon_output.png)
+![Noon Scraping](images/scraping_noon_output.jpg)
 
 **Amazon scraping output:**
-![Amazon Scraping](images/scraping_amazon_output.png)
+![Amazon Scraping](images/scraping_amazon_output.jpg)
 
 **Jumia scraping output:**
-![Jumia Scraping](images/scraping_jumia_output.png)
+![Jumia Scraping](images/scraping_jumia_output.jpg)
 
 
 Each scraper cell:
@@ -124,10 +124,10 @@ all_laptops.csv (1,063 rows)
 final_ready_laptops.csv (752 rows, 16 columns)
 ```
 **Raw data (before cleaning):**
-![Raw Data](images/raw_data_preview.png)
+![Raw Data](images/raw_data_preview.jpg)
 
 **Clean data (after cleaning):**
-![Clean Data](images/clean_data_preview.png)
+![Clean Data](images/clean_data_preview.jpg)
 
 
 **Notable cleaning challenges handled:**
