@@ -1,0 +1,5 @@
+pandas
+selenium
+undetected-chromedriver
+beautifulsoup4
+jupyter
