@@ -19,6 +19,7 @@ This project automatically collects laptop listings from **three major Egyptian 
 | 🕷️ **Scraping** | Selenium scrapes Noon, Amazon & Jumia Egypt |
 | 🧹 **Cleaning** | 13-stage Python pipeline fixes prices, specs & duplicates |
 | 📦 **Output** | Clean dataset ready for analysis, dashboards, or ML |
+![Notebook Overview](images/notebook_overview.png)
 
 ---
 
@@ -78,6 +79,15 @@ The notebook scrapes three sites using **Selenium + Chrome** with anti-bot evasi
 │              └────────────────────┘                      │
 └──────────────────────────────────────────────────────────┘
 ```
+**Noon scraping output:**
+![Noon Scraping](images/scraping_noon_output.png)
+
+**Amazon scraping output:**
+![Amazon Scraping](images/scraping_amazon_output.png)
+
+**Jumia scraping output:**
+![Jumia Scraping](images/scraping_jumia_output.png)
+
 
 Each scraper cell:
 - Navigates pages automatically (URL pagination)
@@ -113,6 +123,12 @@ all_laptops.csv (1,063 rows)
          ▼
 final_ready_laptops.csv (752 rows, 16 columns)
 ```
+**Raw data (before cleaning):**
+![Raw Data](images/raw_data_preview.png)
+
+**Clean data (after cleaning):**
+![Clean Data](images/clean_data_preview.png)
+
 
 **Notable cleaning challenges handled:**
 - 💱 Prices with Arabic commas and currency symbols
