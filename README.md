@@ -224,7 +224,7 @@ The scraper uses several techniques to avoid detection:
 
 ## 👤 Author
 
-**Eng. Elsayed Bakry**
+**Eng. Elsayed Ashraf Bakry**
 
 ---
 
